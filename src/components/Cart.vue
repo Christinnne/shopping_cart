@@ -14,7 +14,7 @@
           >
             -
           </div>
-          <span class="item-number">{{ product2.amount }}</span>
+          <span class="item-number">{{ product.amount }}</span>
           <div class="item-plus" @click="addItem(product.id)">+</div>
         </div>
         <div class="item-price">${{ product.price }}</div>

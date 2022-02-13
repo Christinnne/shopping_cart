@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import StepOne from '../views/StepOne.vue'
+import CheckOut from '../views/CheckOut.vue'
 
 Vue.use(VueRouter)
 
@@ -12,8 +12,8 @@ const routes = [
   },
   {
     path: '/1',
-    name: 'step-one',
-    component: StepOne
+    name: 'checkOut',
+    component: CheckOut
   },
 ]
 
